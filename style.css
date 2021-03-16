@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  background: #7B25AA;
+  width: 400px;
+  height: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #350d4b, -3px -3px 10px #350d4b;
+  color: #fff;
+  margin:auto;
+}
+
+.container:hover {
+  background-color: #691F91;
+  transition: all 2s;
+}
+
+.input {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input input {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border:none;
+  outline: 0;
+  font: 1.5rem serif;
+  text-align: center;
+}
+  
+.input label {
+  font-size: 1.4em;
+}
+  
+button{
+  width: 300px;
+  height: 40px;
+  font: bold 1.2rem serif;
+  background: #7B25AA;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+
+button:hover {
+  color: #691F91;
+  background-color: #ddd1e4;
+  transition: all .8s;
+  border-radius: 10px;
+}  
+  
+#resultado{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  font: 2.1rem ;
+  font-weight: 600;
+  box-shadow: 3px 3px 20px #3d1155, -3px -3px 20px #3d1155;
+  background: #fff;
+  color: #691F91;
+  padding: 20px;
+  box-sizing: border-box;
+  user-select: none;
+  }
